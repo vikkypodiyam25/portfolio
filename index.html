@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikky Podiyam | Web Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Vikky Podiyam portfolio showcasing web development skills, project experience, education, and contact details."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="pointer-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Go to homepage">
+        <span class="brand-mark">V</span>
+        <span class="brand-copy">
+          <strong>Vikky Podiyam</strong>
+          <small>Web Developer Portfolio</small>
+        </span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle color theme"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-label">Theme</span>
+          <span class="theme-toggle-state">Dark</span>
+        </button>
+        <button class="command-trigger" type="button" aria-haspopup="dialog" aria-controls="command-palette">
+          <span>Quick Nav</span>
+          <kbd>Ctrl K</kbd>
+        </button>
+        <a class="nav-cta" href="#contact">Let's Work</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Vikky Podiyam • Aspiring Web Developer</p>
+          <h1>
+            I build responsive websites with
+            <span class="rotating-text" data-words="HTML,CSS,JavaScript,Python,Node.js">HTML</span>
+          </h1>
+          <p class="hero-text">
+            Main Chhattisgarh se hoon aur ek motivated aspiring web developer hoon.
+            Mere paas 1-year computer course background hai aur maine HTML, CSS,
+            JavaScript, Python, API, aur Node.js ke saath hands-on projects banaye hain.
+            Mera focus responsive aur user-friendly websites create karna hai.
+          </p>
+
+          <div class="hero-note">
+            <span class="note-dot" aria-hidden="true"></span>
+            <span>Press <kbd>Ctrl</kbd> + <kbd>K</kbd> for quick navigation</span>
+          </div>
+
+          <div class="hero-badges">
+            <span>Responsive Websites</span>
+            <span>JavaScript + API</span>
+            <span>Python Basics</span>
+            <span>Node.js Learning</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">See My Work</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-metrics">
+            <article class="metric-pill">
+              <strong class="stat-number" data-target="5">0</strong>
+              <span>Core technologies</span>
+            </article>
+            <article class="metric-pill">
+              <strong class="stat-number" data-target="1">0</strong>
+              <span>Year course background</span>
+            </article>
+            <article class="metric-pill">
+              <strong>GitHub + Netlify</strong>
+              <span>Project deployment practice</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal">
+          <article class="glass-card code-window tilt-card">
+            <div class="window-bar">
+              <div class="window-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>build-profile.js</p>
+            </div>
+            <pre><code>const developer = {
+  name: "Vikky Podiyam",
+  role: "Aspiring Web Developer",
+  location: "Chhattisgarh",
+  focus: ["Responsive Websites", "JavaScript", "Learning by Projects"],
+  stack: ["HTML", "CSS", "JavaScript", "Python", "Node.js"],
+  strengths: [
+    "Quick learner",
+    "Problem solving",
+    "Teamwork",
+    "User-friendly websites"
+  ],
+  mission: "Grow as a web developer through real projects"
+};</code></pre>
+          </article>
+
+          <div class="stage-panels">
+            <article class="glass-card stage-card tilt-card">
+              <span class="card-label">Current Focus</span>
+              <h2>Learning programming at School of Programming with focus on web development and JavaScript fundamentals</h2>
+            </article>
+
+            <article class="glass-card stage-card accent-card tilt-card">
+              <span class="card-label">Build Signals</span>
+              <ul class="compact-list">
+                <li>Quick learner with strong interest in web development</li>
+                <li>Hands-on practice with small projects and deployment</li>
+                <li>Hardworking mindset with teamwork and communication skills</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack-strip" aria-label="Technology highlight strip">
+      <div class="container">
+        <div class="stack-track">
+          <span>HTML Projects</span>
+          <span>CSS Styling</span>
+          <span>JavaScript Practice</span>
+          <span>Python Learning</span>
+          <span>Node.js Basics</span>
+          <span>API Integration</span>
+          <span>GitHub Deployment</span>
+          <span>Netlify Hosting</span>
+          <span>Responsive Websites</span>
+          <span>Teamwork Skills</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Dedicated learner building a future in web development</h2>
+        </div>
+
+        <div class="about-layout">
+          <article class="glass-card about-story reveal">
+            <p>
+              Main ek motivated aur dedicated aspiring web developer hoon. Mujhe responsive
+              aur user-friendly websites banana pasand hai, aur main har project ke through apni
+              coding understanding ko aur strong kar raha hoon.
+            </p>
+            <p>
+              Mere paas 1-year computer course background hai aur maine HTML, CSS, JavaScript,
+              APIs, Python, aur Node.js ke saath projects banaye hain. Main quick learner hoon,
+              hardworking hoon, aur professional environment me apni skills ko apply karke
+              grow karna chahta hoon.
+            </p>
+          </article>
+
+          <div class="insight-grid">
+            <article class="glass-card insight-card reveal tilt-card">
+              <span class="card-label">Technical Skills</span>
+              <h3>Web development stack I use in practice</h3>
+              <p>HTML, CSS, JavaScript, Python, API integration, and Node.js basics through hands-on learning and projects.</p>
+            </article>
+
+            <article class="glass-card insight-card reveal tilt-card">
+              <span class="card-label">Tools</span>
+              <h3>Useful productivity tools alongside coding</h3>
+              <p>MS Excel, Google Document, and Google Slide ka use learning, documentation, aur practice workflows me karta hoon.</p>
+            </article>
+
+            <article class="glass-card insight-card reveal tilt-card">
+              <span class="card-label">Soft Skills</span>
+              <h3>Work style focused on growth and collaboration</h3>
+              <p>Good communication, teamwork, time management, problem solving, positive attitude, aur hardworking mindset meri strengths hain.</p>
+            </article>
+
+            <article class="glass-card insight-card reveal tilt-card">
+              <span class="card-label">Languages</span>
+              <h3>Comfortable in Hindi and working English</h3>
+              <p>Hindi fluent or native level par hai, aur English me intermediate working proficiency hai.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills Matrix</p>
+          <h2>Real skills and tools from my learning journey</h2>
+        </div>
+
+        <div class="matrix-grid">
+          <article class="glass-card matrix-card reveal tilt-card">
+            <div class="matrix-head">
+              <h3>HTML and CSS Systems</h3>
+              <span>01</span>
+            </div>
+            <p>Responsive website layouts, clean structure, page sections, styling practice, and user-friendly presentation.</p>
+            <div class="skill-meter" aria-hidden="true"><span style="width: 92%"></span></div>
+            <ul class="feature-list">
+              <li>Responsive landing pages and portfolio pages</li>
+              <li>Clean layouts using sections, cards, and spacing</li>
+              <li>Better visual structure for readable websites</li>
+            </ul>
+          </article>
+
+          <article class="glass-card matrix-card reveal tilt-card">
+            <div class="matrix-head">
+              <h3>JavaScript and APIs</h3>
+              <span>02</span>
+            </div>
+            <p>JavaScript fundamentals, DOM based interaction, and API practice through small web development projects.</p>
+            <div class="skill-meter" aria-hidden="true"><span style="width: 84%"></span></div>
+            <ul class="feature-list">
+              <li>Interactive behavior and user-focused project logic</li>
+              <li>API use in learning based web projects</li>
+              <li>Hands-on practice with modern browser features</li>
+            </ul>
+          </article>
+
+          <article class="glass-card matrix-card reveal tilt-card">
+            <div class="matrix-head">
+              <h3>Python and Node.js Basics</h3>
+              <span>03</span>
+            </div>
+            <p>Python aur Node.js fundamentals ko learning path ke part ke roop me use kar raha hoon, especially logic and backend basics samajhne ke liye.</p>
+            <div class="skill-meter" aria-hidden="true"><span style="width: 76%"></span></div>
+            <ul class="feature-list">
+              <li>Programming logic aur backend concepts ka practice</li>
+              <li>Small experiments and skill building projects</li>
+              <li>Future full stack growth ke liye foundation</li>
+            </ul>
+          </article>
+
+          <article class="glass-card matrix-card reveal tilt-card">
+            <div class="matrix-head">
+              <h3>Productivity and Collaboration</h3>
+              <span>04</span>
+            </div>
+            <p>Technical skills ke saath documentation, communication, teamwork, aur time management par bhi focus rakhta hoon.</p>
+            <div class="skill-meter" aria-hidden="true"><span style="width: 88%"></span></div>
+            <ul class="feature-list">
+              <li>MS Excel, Google Document, Google Slide use</li>
+              <li>Teamwork and communication in learning spaces</li>
+              <li>Positive attitude with consistent improvement mindset</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-lab" id="lab">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Stack Lab</p>
+          <h2>Interactive breakdown of how I use each technology</h2>
+        </div>
+
+        <div class="lab-layout">
+          <aside class="glass-card lab-sidebar reveal">
+            <p class="lab-caption">Pick a layer</p>
+            <button class="stack-tab is-active" type="button" data-stack="html" aria-pressed="true">HTML Systems</button>
+            <button class="stack-tab" type="button" data-stack="css" aria-pressed="false">CSS Direction</button>
+            <button class="stack-tab" type="button" data-stack="javascript" aria-pressed="false">JavaScript UX</button>
+            <button class="stack-tab" type="button" data-stack="python" aria-pressed="false">Python Automation</button>
+            <button class="stack-tab" type="button" data-stack="node" aria-pressed="false">Node.js Backend</button>
+            <p class="lab-side-note">
+              Har tab me live content update hoga jisse clearly dikh sake ki main har technology ko real work me kaise use karta hoon.
+            </p>
+          </aside>
+
+          <article class="glass-card lab-panel reveal">
+            <div class="lab-header">
+              <div>
+                <p class="eyebrow" id="stack-eyebrow">Structure Layer</p>
+                <h3 id="stack-title">Semantic layouts that scale with content</h3>
+              </div>
+
+              <div class="lab-strength">
+                <span>Confidence</span>
+                <strong id="stack-strength">94%</strong>
+              </div>
+            </div>
+
+            <p class="lab-description" id="stack-description">
+              I map sections, hierarchy, and reusable content blocks so the interface stays clean even as the project grows.
+            </p>
+
+            <div class="lab-grid">
+              <article class="lab-column">
+                <span class="lab-label">What I use</span>
+                <ul class="plain-list" id="stack-tools"></ul>
+              </article>
+
+              <article class="lab-column">
+                <span class="lab-label">What I build</span>
+                <ul class="plain-list" id="stack-outcomes"></ul>
+              </article>
+            </div>
+
+            <div class="lab-footer">
+              <div class="confidence-track" aria-hidden="true">
+                <span id="stack-level-bar" style="width: 94%"></span>
+              </div>
+              <div class="stack-badges" id="stack-badges"></div>
+            </div>
+
+            <article class="glass-card lab-code">
+              <div class="window-bar">
+                <div class="window-dots" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <p>stack-preview.ts</p>
+              </div>
+              <pre><code id="stack-snippet"></code></pre>
+            </article>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Experience, learning, and real project practice</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-step">2025 - Present</div>
+            <div class="glass-card timeline-card">
+              <span class="card-label">School of Programming</span>
+              <h3>Programmer and active learner</h3>
+              <p>Currently programming seekh raha hoon with focus on web development and JavaScript fundamentals. Small projects bana kar problem-solving aur coding concepts ko strong kar raha hoon.</p>
+              <div class="timeline-tags">
+                <span>Web Development</span>
+                <span>JavaScript Fundamentals</span>
+                <span>Project Practice</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-step">2025 - 2026</div>
+            <div class="glass-card timeline-card">
+              <span class="card-label">NavGurukul</span>
+              <h3>Ex Disco Facilitator and Life Skill Facilitator</h3>
+              <p>Engaging aur activity-based sessions facilitate kiye focused on discipline, communication, teamwork, leadership, and personal development. Inclusive learning environment create karne me role nibhaya.</p>
+              <div class="timeline-tags">
+                <span>Discipline</span>
+                <span>Leadership</span>
+                <span>Student Engagement</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-step">Projects</div>
+            <div class="glass-card timeline-card">
+              <span class="card-label">Project Experience</span>
+              <h3>Built multiple web development projects</h3>
+              <p>HTML, CSS, JavaScript, aur APIs ke saath multiple projects banaye. In projects ke through coding, problem solving, aur deployment skills ko practical level par improve kiya.</p>
+              <div class="timeline-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript + API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-step">Deployment</div>
+            <div class="glass-card timeline-card">
+              <span class="card-label">GitHub and Netlify</span>
+              <h3>Publishing and sharing project work</h3>
+              <p>Projects ko GitHub aur Netlify par deploy kiya, jisse real-world sharing, hosting, aur project presentation ka experience mila.</p>
+              <div class="timeline-tags">
+                <span>GitHub</span>
+                <span>Netlify</span>
+                <span>Deployment Practice</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Academic background and core strengths</h2>
+        </div>
+
+        <div class="capability-grid">
+          <article class="glass-card capability-card reveal tilt-card">
+            <span class="capability-index">01</span>
+            <h3>DCA • 75%</h3>
+            <p>Dantewada, State Bank Chowk area se DCA complete kiya, jahan se computer basics aur practical digital skills ka foundation mila.</p>
+          </article>
+
+          <article class="glass-card capability-card reveal tilt-card">
+            <span class="capability-index">02</span>
+            <h3>12th (Maths) • 55%</h3>
+            <p>DAV RPS School, Dhanpunji, Jagdalpur, Bastar, C.G. se 2022-23 me 12th complete ki, jisse analytical thinking aur consistency build hui.</p>
+          </article>
+
+          <article class="glass-card capability-card reveal tilt-card">
+            <span class="capability-index">03</span>
+            <h3>10th • 66%</h3>
+            <p>DAV RPS School, Dhanpunji, Jagdalpur, Bastar, C.G. se 2020-21 me 10th complete ki aur disciplined study foundation develop ki.</p>
+          </article>
+
+          <article class="glass-card capability-card reveal tilt-card">
+            <span class="capability-index">04</span>
+            <h3>Soft Skills</h3>
+            <p>Good communication, quick learning, teamwork, time management, problem solving, positive attitude, aur hardworking nature meri key strengths hain.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Project experience built through real practice</h2>
+        </div>
+
+        <div class="project-toolbar reveal">
+          <div class="filter-group" role="tablist" aria-label="Project filters">
+            <button class="filter-button is-active" type="button" data-filter="all" data-title="All project practice" data-description="This view combines frontend builds, JavaScript plus API practice, and deployment learning from my resume.">All</button>
+            <button class="filter-button" type="button" data-filter="frontend" data-title="Frontend website builds" data-description="Responsive pages and user-friendly website practice using HTML, CSS, and JavaScript.">Frontend</button>
+            <button class="filter-button" type="button" data-filter="api" data-title="JavaScript and API projects" data-description="Projects where JavaScript logic and API integration helped strengthen practical development skills.">JavaScript + API</button>
+            <button class="filter-button" type="button" data-filter="learning" data-title="Learning and deployment work" data-description="Projects and practice work that improved coding, deployment, and problem-solving confidence.">Learning + Deploy</button>
+          </div>
+
+          <div class="filter-copy glass-card">
+            <strong id="filter-title">All project practice</strong>
+            <p id="filter-description">This view combines frontend builds, JavaScript plus API practice, and deployment learning from my resume.</p>
+          </div>
+        </div>
+
+        <div class="projects-layout">
+          <div class="projects-grid">
+            <article class="glass-card project-card reveal tilt-card" data-category="frontend learning">
+              <div class="project-head">
+                <span class="card-label">01 / Frontend Build</span>
+                <span class="project-code">PX-01</span>
+              </div>
+              <h3>Personal portfolio website practice</h3>
+              <p>Portfolio-style website builds ke through layout, styling, responsiveness, aur clean presentation par practice ki.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-01">Inspect Case</button>
+              </div>
+            </article>
+
+            <article class="glass-card project-card reveal tilt-card" data-category="frontend">
+              <div class="project-head">
+                <span class="card-label">02 / Responsive UI</span>
+                <span class="project-code">PX-02</span>
+              </div>
+              <h3>Responsive website pages</h3>
+              <p>User-friendly websites banane ke liye responsive layouts, section structure, aur visual presentation par focused projects banaye.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>Responsive UI</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-02">Inspect Case</button>
+              </div>
+            </article>
+
+            <article class="glass-card project-card reveal tilt-card" data-category="api learning">
+              <div class="project-head">
+                <span class="card-label">03 / JavaScript + API</span>
+                <span class="project-code">PX-03</span>
+              </div>
+              <h3>JavaScript and API based mini projects</h3>
+              <p>JavaScript aur APIs ka use karke projects banaye jisse dynamic behavior, data handling, aur problem solving skills improve hui.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>JavaScript</span>
+                  <span>API</span>
+                  <span>API Flow</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-03">Inspect Case</button>
+              </div>
+            </article>
+
+            <article class="glass-card project-card reveal tilt-card" data-category="learning">
+              <div class="project-head">
+                <span class="card-label">04 / Deployment</span>
+                <span class="project-code">PX-04</span>
+              </div>
+              <h3>GitHub project publishing</h3>
+              <p>Apne web development projects ko GitHub par publish karke code sharing aur portfolio presentation ka practical experience liya.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>GitHub</span>
+                  <span>Code Sharing</span>
+                  <span>Practice</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-04">Inspect Case</button>
+              </div>
+            </article>
+
+            <article class="glass-card project-card reveal tilt-card" data-category="learning frontend">
+              <div class="project-head">
+                <span class="card-label">05 / Hosting</span>
+                <span class="project-code">PX-05</span>
+              </div>
+              <h3>Netlify deployment experience</h3>
+              <p>Netlify par projects deploy karke hosting, sharing, aur live web presentation ka experience gain kiya.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>Netlify</span>
+                  <span>Hosting</span>
+                  <span>Live Projects</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-05">Inspect Case</button>
+              </div>
+            </article>
+
+            <article class="glass-card project-card reveal tilt-card" data-category="learning api">
+              <div class="project-head">
+                <span class="card-label">06 / Skill Growth</span>
+                <span class="project-code">PX-06</span>
+              </div>
+              <h3>Python and Node.js learning practice</h3>
+              <p>Python aur Node.js ko learning path me include karke future backend aur logic skills ke liye foundation build kar raha hoon.</p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span>Python</span>
+                  <span>Node.js</span>
+                  <span>Learning</span>
+                </div>
+                <button class="inspect-button" type="button" data-project="PX-06">Inspect Case</button>
+              </div>
+            </article>
+          </div>
+
+          <aside class="glass-card spotlight-card reveal">
+            <p class="eyebrow">Showcase Logic</p>
+            <h3>These projects show how I am learning through hands-on building</h3>
+            <p>
+              Mere PDF ke hisaab se project practice meri growth ka important part hai. Isliye yeh section
+              frontend skills, JavaScript and API usage, aur deployment experience ko clearly highlight karta hai.
+            </p>
+            <div class="spotlight-points">
+              <div>
+                <strong>Responsive Websites</strong>
+                <span>User-friendly pages banana meri main practical strengths me se ek hai</span>
+              </div>
+              <div>
+                <strong>API Practice</strong>
+                <span>JavaScript ke saath API use karke dynamic learning projects banaye</span>
+              </div>
+              <div>
+                <strong>Deployment Confidence</strong>
+                <span>GitHub aur Netlify par projects share karne ka practical experience hai</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Work Style</p>
+          <h2>Personal strengths that support my technical growth</h2>
+        </div>
+
+        <div class="workflow-grid">
+          <article class="glass-card workflow-card reveal">
+            <span>01</span>
+            <h3>Quick Learner</h3>
+            <p>Nayi cheeze jaldi samajhkar unhe projects me apply karne ki habit meri learning journey ka strong part hai.</p>
+          </article>
+
+          <article class="glass-card workflow-card reveal">
+            <span>02</span>
+            <h3>Teamwork</h3>
+            <p>Group environment me positively kaam karna aur dusron ke saath coordinate karna mujhe naturally comfortable lagta hai.</p>
+          </article>
+
+          <article class="glass-card workflow-card reveal">
+            <span>03</span>
+            <h3>Problem Solving</h3>
+            <p>Small coding challenges aur practical project issues ko solve karte hue main apni technical thinking improve karta hoon.</p>
+          </article>
+
+          <article class="glass-card workflow-card reveal">
+            <span>04</span>
+            <h3>Positive and Hardworking</h3>
+            <p>Consistent effort, time management, aur positive attitude ke saath long-term growth par focus rakhta hoon.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-workspace" id="workspace">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Workspace</p>
+          <h2>A closer look at how I learn and build</h2>
+        </div>
+
+        <div class="workspace-grid">
+          <div class="workspace-live-grid">
+            <article class="glass-card workspace-panel">
+              <p class="eyebrow">Access State</p>
+              <h3>Workspace is unlocked and active</h3>
+              <p>
+                Ab private area open hai. Session browser storage me save ho raha hai, isliye refresh ke
+                baad bhi access active rahega jab tak aap manually lock nahi karte.
+              </p>
+              <div class="workspace-status-row">
+                <span class="workspace-chip workspace-chip-live">Open for collaboration</span>
+                <span class="workspace-chip">HTML + CSS + JS only</span>
+              </div>
+            </article>
+
+            <article class="glass-card workspace-panel">
+              <p class="eyebrow">Unlocked Features</p>
+              <ul class="plain-list">
+                <li>Responsive layouts built with semantic HTML</li>
+                <li>Interactive experiences powered by JavaScript</li>
+                <li>Projects deployed with GitHub and Netlify</li>
+              </ul>
+            </article>
+
+            <article class="glass-card workspace-panel">
+              <p class="eyebrow">Quick Actions</p>
+              <div class="workspace-actions">
+                <a class="button button-secondary" href="#lab">Open Stack Lab</a>
+                <a class="button button-secondary" href="#projects">View Case Studies</a>
+                <a class="button button-primary" href="#contact">Get in touch</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="glass-card contact-shell reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect for web development opportunities and learning based work</h2>
+            <p>
+              Main web development me grow karne ke liye opportunities, collaborations, aur practical projects ke liye open hoon.
+              Agar aap mujhse connect karna chahte hain, to neeche mere real contact details available hain.
+            </p>
+
+            <div class="contact-status">
+              <span>Chhattisgarh</span>
+              <span>Hindi Fluent</span>
+              <span>English Intermediate</span>
+              <span>Quick Learner</span>
+            </div>
+          </div>
+
+          <div class="contact-panel">
+            <div class="contact-line">
+              <span>Email</span>
+              <a href="mailto:vikkypodiyam25@navgurukul.org">vikkypodiyam25@navgurukul.org</a>
+            </div>
+            <div class="contact-line">
+              <span>Phone</span>
+              <a href="tel:+918815191819">+91 8815191819</a>
+            </div>
+            <div class="contact-line">
+              <span>Netlify</span>
+              <span>Available on request</span>
+            </div>
+            <div class="contact-line">
+              <span>GitHub</span>
+              <span>Available on request</span>
+            </div>
+            <div class="contact-line">
+              <span>Focus</span>
+              <p>HTML, CSS, JavaScript, Python, API, and Node.js</p>
+            </div>
+
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:vikkypodiyam25@navgurukul.org">Send Email</a>
+              <a class="button button-secondary" href="tel:+918815191819">Call Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>Built to showcase Vikky Podiyam's web development journey and project practice.</p>
+      <p>&copy; <span id="year"></span> Vikky Podiyam Portfolio</p>
+    </div>
+  </footer>
+
+  <div class="modal-shell" id="project-modal-shell" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="project-modal glass-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-top">
+        <div>
+          <p class="eyebrow" id="modal-kicker">Case Study</p>
+          <h2 id="modal-title">Personal portfolio website practice</h2>
+        </div>
+        <button class="modal-close" type="button" data-close-modal aria-label="Close project details">Close</button>
+      </div>
+
+      <p class="modal-summary" id="modal-summary"></p>
+      <div class="modal-tags" id="modal-tags"></div>
+
+      <div class="modal-grid">
+        <article class="modal-panel">
+          <span class="lab-label">Challenge</span>
+          <p id="modal-challenge"></p>
+        </article>
+
+        <article class="modal-panel">
+          <span class="lab-label">Build Focus</span>
+          <p id="modal-build"></p>
+        </article>
+
+        <article class="modal-panel">
+          <span class="lab-label">Outcome</span>
+          <p id="modal-outcome"></p>
+        </article>
+
+        <article class="modal-panel">
+          <span class="lab-label">Highlights</span>
+          <ul class="plain-list" id="modal-highlights"></ul>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <div class="command-palette" id="command-palette" hidden>
+    <div class="command-backdrop" data-close-command></div>
+    <section class="command-dialog glass-card" role="dialog" aria-modal="true" aria-labelledby="command-title">
+      <div class="command-head">
+        <div>
+          <p class="eyebrow">Quick Navigation</p>
+          <h2 id="command-title">Jump anywhere in the portfolio</h2>
+        </div>
+        <button class="palette-close" type="button" data-close-command aria-label="Close quick navigation">Esc</button>
+      </div>
+
+      <div class="command-list">
+        <button class="command-item" type="button" data-target="#home">
+          <strong>Home</strong>
+          <span>Hero, summary, and quick entry point</span>
+        </button>
+        <button class="command-item" type="button" data-target="#about">
+          <strong>About</strong>
+          <span>Story, approach, and background</span>
+        </button>
+        <button class="command-item" type="button" data-target="#skills">
+          <strong>Skills Matrix</strong>
+          <span>Core strengths across the stack</span>
+        </button>
+        <button class="command-item" type="button" data-target="#lab">
+          <strong>Stack Lab</strong>
+          <span>Interactive technology breakdown</span>
+        </button>
+        <button class="command-item" type="button" data-target="#workspace">
+          <strong>Workspace</strong>
+          <span>Workspace and learning notes</span>
+        </button>
+        <button class="command-item" type="button" data-target="#experience">
+          <strong>Experience</strong>
+          <span>Workflow and delivery phases</span>
+        </button>
+        <button class="command-item" type="button" data-target="#projects">
+          <strong>Projects</strong>
+          <span>Filtered showcase and case studies</span>
+        </button>
+        <button class="command-item" type="button" data-target="#contact">
+          <strong>Contact</strong>
+          <span>Reach out for projects and collaborations</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
